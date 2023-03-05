@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>replit</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    
+
+  <header>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="imagens/logo.jpg"></a>
+            <div class="group" id="group">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="navigation">
+                    <li><a href="#" class="home">citação1</a></li>
+                    <li><a href="#" class="botoes">citação2</a></li>
+                    <li><a href="#" class="mais">citação3 ‎</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Biologia Fotossíntese</h1>
+            <p>Um site sobre fotossintese e seu processos, feito pelos estudantes x x x x x x x com o intuito de aprendizado.</p>
+            <a href="" class="hero-btn">Clique aqui para saber mais</a>
+        </div>
+    </section>
+  </header>
+
+  <!----course ~~~ mudar o nome depois------>
+
+  <section class="course">
+    <h1>Material fotossintese-1</h1>
+    <p>coisas sobre fotossintese</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>definição</h3>
+            <p>A fotossíntese é o processo pelo qual as plantas, algas e algumas bactérias convertem a energia solar em energia química, produzindo açúcares que servem como fonte de energia para a própria célula e para outros organismos que se alimentam delas.</p>
+        </div>
+        <div class="course-col">
+            <h3>importância</h3>
+            <p>A fotossíntese é um processo crucial para a vida na Terra, pois é responsável pela produção de oxigênio, que é essencial para a respiração dos seres vivos. Além disso, a fotossíntese é responsável pela produção de alimentos e biomassa para a cadeia alimentar, bem como pela regulação do clima global.</p>
+        </div>
+        <div class="course-col">
+            <h3>reações quimicas</h3>
+            <p>A fotossíntese ocorre em duas etapas principais: a primeira etapa, chamada de reação de luz, ocorre na presença de luz e produz ATP e NADPH, que são usados na segunda etapa, a fase escura, onde o CO2 é fixado e convertido em açúcares.</p>
+        </div>
+    </div>
+  </section>
+
+  <!--campus ~~~ mudar o nome depois-->
+
+  <section class="campus">
+    <h1>fotossinte-2</h1>
+    <p>mais coisas sobre fotossintese aqui</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="imagens/imagem1.jpg">
+            <div class="layer">
+                <h3>planta</h3>
+            </div>
+    
+        </div>
+
+        <div class="campus-col">
+            <img src="imagens/imagem2.png">
+            <div class="layer">
+                <h3>planta2</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="imagens/imagem3.png">
+            <div class="layer">
+                <h3>planta3</h3>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+<!--facilities ~~~ mudar nome depois-->
+
+  <section class="facilities">
+    <h1>fotossinte-3</h1>
+    <p>mais texto sobre fotossintese</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="" alt="">
+        </div>
+    </div>
+
+  </section>
+  
+  <script src="script.js"></script>
+
+
+  <!-----javascript para o menu-->
+  <script>
+    var group = document.getElementById("group"); 
+
+    function showMenu(){
+        group.style.right = "0";
+    }
+
+    function hideMenu(){
+        group.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+
+</html>
