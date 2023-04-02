@@ -15,107 +15,115 @@
 </head>
 
 <body>
-  <!----course ~~~ mudar o nome depois------>
-
-  <section class="course">
-    <h1>Material fotossintese-1</h1>
-    <p>coisas sobre fotossintese</p>
-    <div class="row">
-      <div class="course-col">
-        <h3>definição</h3>
-        <p>A fotossíntese é o processo pelo qual as plantas, algas e algumas bactérias convertem a energia solar em
-          energia química, produzindo açúcares que servem como fonte de energia para a própria célula e para outros
-          organismos que se alimentam delas.</p>
-      </div>
-      <div class="course-col">
-        <h3>importância</h3>
-        <p>A fotossíntese é um processo crucial para a vida na Terra, pois é responsável pela produção de oxigênio, que
-          é essencial para a respiração dos seres vivos. Além disso, a fotossíntese é responsável pela produção de
-          alimentos e biomassa para a cadeia alimentar, bem como pela regulação do clima global.</p>
-      </div>
-      <div class="course-col">
-        <h3>reações quimicas</h3>
-        <p>A fotossíntese ocorre em duas etapas principais: a primeira etapa, chamada de reação de luz, ocorre na
-          presença de luz e produz ATP e NADPH, que são usados na segunda etapa, a fase escura, onde o CO2 é fixado e
-          convertido em açúcares.</p>
-      </div>
-    </div>
-  </section>
-
+  
   <!--campus ~~~ mudar o nome depois-->
 
   <section class="campus">
-    <h1>fotossinte-2</h1>
-    <p>mais coisas sobre fotossintese aqui</p>
+    <h1>ILUSTRAÇÕES</h1>
+    <p>*ALGUMAS IMAGENS DOS FLAGELADOS AQUI*</p>
 
     <div class="row">
-      <div class="campus-col">
-        <img src="imagens/imagem1.jpg">
-        <div class="layer">
-          <h3>planta</h3>
+        <div class="campus-col">
+            <img src="imagens/image1.jpg">
+            <div class="layer">
+                <h3>flagelado-1</h3>
+            </div>
+    
         </div>
 
-      </div>
-
-      <div class="campus-col">
-        <img src="imagens/imagem2.png">
-        <div class="layer">
-          <h3>planta2</h3>
+        <div class="campus-col">
+            <img src="imagens/image2.jpg">
+            <div class="layer">
+                <h3>flagelado-2</h3>
+            </div>
         </div>
-      </div>
 
-      <div class="campus-col">
-        <img src="imagens/imagem3.png">
-        <div class="layer">
-          <h3>planta3</h3>
+        <div class="campus-col">
+            <img src="imagens/image3.jpg">
+            <div class="layer">
+                <h3>flagelado-3</h3>
+            </div>
         </div>
-      </div>
 
     </div>
   </section>
 
-  <!--facilities ~~~ mudar o nome depois-->
+  <!--flagelados 2-->
+
+  <section class="flagelados2">
+    <h1>PARASITOLOGIA </h1>
+    <p>*PARASITOLOGIA*</p>
+    <div class="row">
+
+        <div class="flagelados2-col">
+            <h3>Doença de Chagas</h3>
+            <p>- espécie: Trypanosoma Cruzi <br>
+                - transmissão: fezes do inseto Triatoma através de lesões na pele
+            </p>
+        </div>
+
+        <div class="flagelados2-col">
+            <h3>Doença do Sono</h3>
+            <p>
+                - especie: Trypanosoma Gambiensis <br>
+                - transmissão: picada da mosca tsé-tsé (glossina) 
+            </p>
+        </div>
+
+        <div class="flagelados2-col">
+            <h3>Tricomoníase</h3>
+            <p>
+                - espécie: Trichomonas Vaginalis <br>
+                - transmissão: relação sexual ou toalhas e objetivos úmidos contaminados
+            </p>
+        </div>
+
+        <div class="flagelados2-col">
+            <h3>Giardíase</h3>
+            <p>
+                - espécie: Giardia Lamblia <br>
+                - transmissão: ingestão de cistos eliminados com as fezes humanas
+            </p>
+        </div>
+
+    </div>
+  </section>
+
+
+<!--facilities ~~~ mudar nome depois-->
 
   <section class="facilities">
-    <h1>fotossinte-3</h1>
-    <p>mais texto sobre fotossintese</p>
+    <h1>ALGO A MAIS</h1>
+    <p>*ADICIONAR ALGO MAIS (auto explicativo '-')*</p>
 
     <div class="row">
-      <div class="facilities-col">
-        <img src="" alt="">
-      </div>
+        <div class="facilities-col">
+            <img src="" alt="">
+        </div>
     </div>
 
   </section>
-
-
-
+  
+  
+  
   <script src="scriptbio.js"></script>
-  <script>
-    // Load the first page
-    window.onload = function () {
-      loadPage('page1.html', 0);
-      document.querySelector('.pager button:first-child').focus(); // Set focus on the first button
-    }
-  </script>
 
 
   <!-----javascript para o menu-->
   <script>
+    
+    var group = document.getElementById("group"); 
 
-    var group = document.getElementById("group");
-
-    function showMenu() {
-      group.style.right = "0";
-      group.style.display = "block"
+    function showMenu(){
+        group.style.right = "0";
+        group.style.display = "block"
     }
 
-    function hideMenu() {
-      group.style.right = "700px";
+    function hideMenu(){
+        group.style.right = "700px";
     }
-
+    
   </script>
-
 
 
 </body>
