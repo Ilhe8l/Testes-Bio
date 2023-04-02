@@ -103,8 +103,8 @@ header ul li a:hover::before{
 }
 
 .hero-btn:hover{
-  border: 1px solid #f44336;
-  background: #f44336;
+  border: 1px solid #4D9C73;
+  background: #4D9C73;
   transition: 1s;
 }
 
@@ -216,6 +216,7 @@ h2{
   margin: auto;
   text-align: center;
   padding-top: 50px;
+  
 }
 
 campus-col{
@@ -227,6 +228,7 @@ campus-col{
 }
 
 .campus-col img{
+  margin-right: -300x;
   border-right: 15px;
   width: 175px;
   height: 175px;
@@ -241,10 +243,135 @@ campus-col{
   padding-top: 100px;
 }
 
+/*---flagelados-2----*/
 
 
+.flagelados2{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.flagelados2-col{
+  flex-basis: 31%;
+  background: #E4F1C0;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin: 1%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.flagelados2-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+
+/* info */
+
+.informacoes{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.informacoes-col{
+  flex-basis: 31%;
+  background: #E4F1C0;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin: 1%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.informacoes-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+
+/* rizopodes */
+
+.rizopodes{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.rizopodes-col{
+  flex-basis: 31%;
+  background:  #AED6F1;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin: 1%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.rizopodes-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+
+/* rizopodes 2*/
+
+.rizopodes2{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.rizopodes2-col{
+  flex-basis: 31%;
+  background: #87CEFA;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-top: -3%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.rizopodes2-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
 
 /*botão*/
+
+
+
 
 .pager{
   position: fixed;
@@ -306,7 +433,3 @@ campus-col{
     flex: 0 0 80px;
 }
 
-@media(max-width: 700px){
-  .pager{
-    right: -30px;
-}
